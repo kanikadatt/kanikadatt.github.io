@@ -62,3 +62,7 @@ a:focus {
   float: left;
   border-bottom: 0px none #000;
 }
+
+.main {
+    background-image: url(https://github.com/kanikadatt/kanikadatt.github.io/blob/master/IMG_5000.JPG)
+}
