@@ -1,3 +1,4 @@
+ 
 body {
   background-color: #3a4660;
   margin-top: 100px;
@@ -63,6 +64,6 @@ a:focus {
   border-bottom: 0px none #000;
 }
 
-.main {
+.me {
     background-image: url(https://github.com/kanikadatt/kanikadatt.github.io/blob/master/IMG_5000.JPG)
 }
