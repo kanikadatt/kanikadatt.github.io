@@ -103,30 +103,26 @@ a:focus {
       margin-right: 15px;
   }
 
-.about p, h2 {
-  color:  #1d2330;
-}
+  .about p, h2 {
+    color:  #1d2330;
+  }
+  
+  .about h2 {
+    text-align: center;
+  }
+  
+  .experience {
+    background-color: #1d2330;
+  }
+  
+  .experience h2, p {
+    color: white;
+  }
+  
+  .experience h2 {
+    text-align: center;
+  }
 
-.about h2 {
-  text-align: center;
-}
-
-.experience {
-  background-color: #1d2330;
-}
-
-.experience h2, p {
-  color: white;
-}
-
-.experience h2 {
-  text-align: center;
-}
-
-.project h2, p {
-  color: #1d2330
-}
-
-.project h2 {
-  text-align: center;
-}
+  .project h2 {
+    text-align: center;
+  }
