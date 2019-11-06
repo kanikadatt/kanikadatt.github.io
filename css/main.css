@@ -67,8 +67,7 @@ a:focus {
 }
 
 .me {
-    /*background-image: url(https://github.com/kanikadatt/kanikadatt.github.io/blob/master/IMG_5000.JPG); */
-    background-color: #3a4660;
+    background-image: url(IMG_5000.JPG); 
     text-align: center;
 }
 
