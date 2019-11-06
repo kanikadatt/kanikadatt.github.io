@@ -4,7 +4,6 @@ section {
     padding-bottom: 100px;
     padding-left: 50px;
     padding-right: 50px;
-    text-align: center;
 }
 
 body {
@@ -33,7 +32,6 @@ h2 {
   line-height: 36px;
   font-style: normal;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 p {
@@ -68,10 +66,42 @@ a:focus {
 .social-icon {
   margin-top: 60px;
   padding-right: 25px;
-  float: left;
+  align-content: center;
   border-bottom: 0px none #000;
 }
 
 .me {
-    background-image: url(https://github.com/kanikadatt/kanikadatt.github.io/blob/master/IMG_5000.JPG)
+    background-image: url(https://github.com/kanikadatt/kanikadatt.github.io/blob/master/IMG_5000.JPG);
+    text-align: center;
 }
+
+.position {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Brandon, sans-serif;
+    color: #fff;
+    font-size: 22px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .container {
+      border: 2px solid #ccc;
+      background-color: #eee;
+      border-radius: 5px;
+      padding: 16px;
+      margin: 16px;
+  }
+
+  .container img {
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%;
+  }
+
+  .container span {
+      font-size: 20px;
+      margin-right: 15px;
+  }
