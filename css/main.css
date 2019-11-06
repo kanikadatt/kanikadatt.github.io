@@ -64,8 +64,6 @@ a:focus {
 }
 
 .social-icon {
-
-.social-icon {
     /*
   margin-top: 60px;
   */
@@ -73,7 +71,7 @@ a:focus {
   align-content: center;
   border-bottom: 0px none #000;
   display: inline;
-} 
+}
 
 .me {
     background-image: url(https://github.com/kanikadatt/kanikadatt.github.io/blob/master/IMG_5000.JPG);
