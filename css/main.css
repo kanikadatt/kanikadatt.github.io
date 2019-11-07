@@ -67,7 +67,8 @@ a:focus {
 }
 
 .me {
-    background-image: url(IMG_5000.JPG); 
+    /*background-image: url(https://github.com/kanikadatt/kanikadatt.github.io/blob/master/IMG_5000.JPG); */
+    background-color: #3a4660;
     text-align: center;
 }
 
@@ -83,44 +84,104 @@ a:focus {
     text-transform: uppercase;
   }
 
-  .container {
-      border: 2px solid #ccc;
-      border-radius: 5px;
-      padding: 16px;
-      margin: 16px;
+/* About Me */
+.about {
+    background-color: lightgrey;
+}
+
+.about p, h2 {
+  color:  #1d2330;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+/* Experience */ 
+.experience {
+  background-color: white;
+}
+
+.experience h2, p {
+  color: navy;
+}
+
+.experience h2 {
+  text-align: center;
+}
+
+ .logo {
+   display: inline-block;
+   vertical-align: middle;
+   margin-top: auto;
+   margin-top: bottom;
+   max-height: 191.75px;;
+   max-width: 235px;
+   border-radius: 12px;
+   padding-right: 20px;
   }
 
-  .container img {
-      float: left;
-      margin-right: 20px;
-      border-radius: 50%;
-  }
+.text {
+  font-size: 24px;
+  color: navy;
+  display: inline;
+}
 
-  .container span {
-      font-size: 20px;
-      margin-right: 15px;
-  }
+.first-div
+{
+  display:inline;
+  float:left;
+  padding-right:12px
+}
 
-  .about p, h2 {
-    color:  #1d2330;
-  }
-  
-  .about h2 {
-    text-align: center;
-  }
-  
-  .experience {
-    background-color: #1d2330;
-  }
-  
-  .experience h2, p {
-    color: white;
-  }
-  
-  .experience h2 {
-    text-align: center;
-  }
+/* Position Details */
 
-  .project h2 {
-    text-align: center;
-  }
+
+.title {
+  color: rgb(51, 119, 204);
+  margin: 0px;
+  line-height: 34.8px;
+  font-family: brandon, helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.job {
+  color: #5e9516;
+  size: 10;
+  margin: 0px;
+  line-height: 23.2px;
+  font-size: 16px;
+  font-family: roboto, helvetica, sans-serif;
+  font-weight: 700;
+
+}
+
+.location {
+  color: rbg(80,85,92);
+  font-family: robot, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21.75px;
+  margin: 0px; 
+}
+
+.text u1 {
+  font-size: 20px;
+  color: rgb(80,85,92);
+  line-height: 21.75px;
+  font-family: roboto, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0.5;
+}
+/* Projects */
+.project h2, p {
+  color: #1d2330
+}
+
+.project h2 {
+  text-align: center;
+}
+
+
