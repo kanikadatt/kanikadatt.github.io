@@ -114,12 +114,26 @@ a:focus {
   text-align: center;
 }
 
+
+.exp-list {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 50px 0;
+  display: flex;
+}
+
+.first-div {
+  display:inline-block;
+  vertical-align: middle;
+  padding-right:12px;
+  float: left;
+  padding-left: 30px;
+}
+
  .logo {
    display: inline-block;
    vertical-align: middle;
-   margin-top: auto;
-   margin-top: bottom;
-   height: 191.75px;;
+   height: 200px;;
    width: 235px;
    border-radius: 12px;
    margin-right: 20px;
@@ -130,20 +144,9 @@ a:focus {
   color: navy;
  /* display: inline; */
   float: left;
+  width: 1000px;
+  height: 200px;
 }
-
-.first-div {
-  display:inline;
-  padding-right:12px;
-  float: left;
-}
-
-.exp-list {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 0 50px 0;
-}
-
 /* Position Details */
 
 
@@ -164,7 +167,6 @@ a:focus {
   font-size: 16px;
   font-family: roboto, helvetica, sans-serif;
   font-weight: 700;
-
 }
 
 .location {
@@ -184,6 +186,8 @@ a:focus {
   font-size: 15px;
   font-weight: 400;
   margin: 0.5;
+  width: 500px;
+  word-break: keep-all;
 }
 
 /* Projects */
