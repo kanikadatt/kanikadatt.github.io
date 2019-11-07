@@ -178,7 +178,7 @@ a:focus {
   margin: 0px; 
 }
 
-.text u1 {
+.text u1, p {
   font-size: 20px;
   color: rgb(80,85,92);
   line-height: 21.75px;
