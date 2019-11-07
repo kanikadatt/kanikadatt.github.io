@@ -83,6 +83,15 @@ a:focus {
     text-transform: uppercase;
   }
 
+.section-name {
+    text-align: center;
+    color: rgb(51,51,51);
+    font-family: brandon, helvetic, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  
 /* About Me */
 .about {
     background-color: lightgrey;
@@ -99,10 +108,6 @@ a:focus {
 /* Experience */ 
 .experience {
   background-color: white;
-}
-
-.experience h2, p {
-  color: navy;
 }
 
 .experience h2 {
@@ -129,9 +134,7 @@ a:focus {
 .first-div
 {
   display:inline;
-  float:left;
-  padding-right:12px;
-  margin: 0 0 50px 0;
+  padding-right:12px
 }
 
 /* Position Details */
