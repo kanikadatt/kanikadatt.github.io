@@ -119,21 +119,21 @@ a:focus {
    vertical-align: middle;
    margin-top: auto;
    margin-top: bottom;
-   max-height: 191.75px;;
-   max-width: 235px;
+   height: 191.75px;;
+   width: 235px;
    border-radius: 12px;
-   padding-right: 20px;
+   margin-right: 20px;
   }
 
 .text {
   font-size: 24px;
   color: navy;
  /* display: inline; */
-  float: right;
+  float: left;
 }
 
 .first-div {
-  /* display:inline; */
+  display:inline;
   padding-right:12px;
   float: left;
 }
@@ -185,6 +185,7 @@ a:focus {
   font-weight: 400;
   margin: 0.5;
 }
+
 /* Projects */
 .project h2, p {
   color: #1d2330
