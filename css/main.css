@@ -1,3 +1,5 @@
+
+/* OVERALL */ 
 section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -55,6 +57,16 @@ a:focus {
   margin-top: 60px;
 }
 
+.section-name {
+    text-align: center;
+    color: rgb(51,51,51);
+    font-family: brandon, helvetic, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+/* HEADER */
 .social-icon {
     /*
   margin-top: 60px;
@@ -83,16 +95,7 @@ a:focus {
     text-transform: uppercase;
   }
 
-.section-name {
-    text-align: center;
-    color: rgb(51,51,51);
-    font-family: brandon, helvetic, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-  }
-
-/* About Me */
+/* ABOUT ME */
 .about {
     background-color: lightgrey;
 }
@@ -105,7 +108,7 @@ a:focus {
   text-align: center;
 }
 
-/* Experience */ 
+/* EXPERIENCE */ 
 .experience {
   background-color: white;
 }
@@ -190,11 +193,25 @@ a:focus {
   word-break: keep-all;
 }
 
-/* Projects */
-.project h2, p {
-  color: #1d2330
-}
-
-.project h2 {
-  text-align: center;
-}
+/* Hobbies */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    width: 200px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
