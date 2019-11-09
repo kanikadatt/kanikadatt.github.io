@@ -1,4 +1,5 @@
 /* OVERALL */ 
+
 section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -65,10 +66,13 @@ a:focus {
     font-size: 36px;
   }
 
+.body {
+  margin: 0;
+}
+
 /* HEADER */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.fykz1-2.fna.fbcdn.net/v/t1.15752-9/s2048x2048/72987660_994059910944149_2406752260810866688_n.jpg?_nc_cat=110&_nc_oc=AQkL-6K4Zg_pV2o44_fK_v01LSkFSPyB-XEFOGelin7GOTiAtOQbG2CeplNO93J7GwbTXwtyaAoYJqX0spKsHpwc&_nc_ht=scontent.fykz1-2.fna&oh=8f6be7347af121f44f94eddb39359491&oe=5E581C54");
-  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,16 +98,35 @@ a:focus {
   display: inline;
 }
 
+.me i {
+  align-content: center;
+  border-bottom: 0px none #000;
+  display: inline;
+  font-size:30px;
+}
+
 .me {
-  text-align: center;
-  height: 300px;
+  /* Sizing and images */ 
+  width: 100wh;
+  height: 100vh;
   margin: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.fykz1-2.fna.fbcdn.net/v/t1.15752-9/s2048x2048/72987660_994059910944149_2406752260810866688_n.jpg?_nc_cat=110&_nc_oc=AQkL-6K4Zg_pV2o44_fK_v01LSkFSPyB-XEFOGelin7GOTiAtOQbG2CeplNO93J7GwbTXwtyaAoYJqX0spKsHpwc&_nc_ht=scontent.fykz1-2.fna&oh=8f6be7347af121f44f94eddb39359491&oe=5E581C54");
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.fykz1-2.fna.fbcdn.net/v/t1.15752-9/s2048x2048/72987660_994059910944149_2406752260810866688_n.jpg?_nc_cat=110&_nc_oc=AQkL-6K4Zg_pV2o44_fK_v01LSkFSPyB-XEFOGelin7GOTiAtOQbG2CeplNO93J7GwbTXwtyaAoYJqX0spKsHpwc&_nc_ht=scontent.fykz1-2.fna&oh=8f6be7347af121f44f94eddb39359491&oe=5E581C54");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  background-attachment: fixed;
+
+  
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Text styles */
+  text-align: center;
+
 }
+
 .position {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -118,7 +141,8 @@ a:focus {
 
 /* ABOUT ME */
 .about {
-    background-color: lightgrey;
+  background-color: lightgrey;
+  font-family: brandon, helvetic, sans-serif;
 }
 
 .about p, h2 {
@@ -136,15 +160,48 @@ a:focus {
 }
 
 .personal-pic img {
-  max-height: 300px;
-  max-width: 300px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
 }
-
-hr {
-  
+.about h3 {
+  text-align: center;
 }
 
+.first-row, .second-row {
+  margin: 0 auto;
+  width: 100wh;
+}
+
+.personal-pic{
+  float: left;
+  width: 25wh; 
+  height: 300px;
+  margin-right: 50px;
+}
+
+.intro {
+  width: 75wh;
+  height: 300px;
+  margin-left: 200px;
+}
+
+.col-2-1 {
+  float: left;
+  width: 50wh;
+  height: 300px;
+  margin-right: 50px;
+}
+
+.col-2-2 {
+  width: 50wh;
+  height: 300px;
+  margin-left: 200px;
+}
+
+.third-row h3 {
+  text-align: center;
+}
 
 /* EXPERIENCE */ 
 .experience {
