@@ -147,6 +147,7 @@
     }
   
   /* ABOUT ME */
+/*
   .about {
     background-color: lightgrey;
     font-family: brandon, helvetic, sans-serif;
@@ -209,7 +210,7 @@
   .third-row h3 {
     text-align: center;
   }
-  
+  */
   /* EXPERIENCE */ 
   .experience {
     background-color: white;
@@ -319,7 +320,10 @@
     overflow: auto;
   }
   
-  
+  .skills h2 {
+      color: white;
+}
+
   .skills img {
     height: 150px;
     width: 150px;
